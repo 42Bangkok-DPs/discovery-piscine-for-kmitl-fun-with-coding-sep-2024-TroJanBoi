@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0; 
+        padding: 0;
+    }
+    .contain-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .item-1 {
+        background-color: #c3c77e;
+        width: 50%;
+    }
+    .item-2 {
+        background-color: #f9c4af;
+        width: 50%;
+    }
+    @media screen and (max-width: 800px) {
+        .item-1, .item-2 {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+    }
+</style>
+<body>
+    <table class="contain-table">
+        <tr >
+            <td class="item-1">Fist Ccell</td>
+            <td class="item-2">Second Cell</td>
+        </tr>
+    </table>
+</body>
+</html>
